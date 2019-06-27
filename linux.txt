@@ -1,0 +1,69 @@
+<!------------
+*TASK 1
+------------->
+
+pwd
+cd ../
+mkdir myProject
+cd myProject
+touch app.js
+cd ../
+myProject2
+cd ../
+cp myProject/app.js myProject2
+
+<!------------
+*TASK 2
+------------->
+
+touch exercise.txt
+mv exercise.txt /tmp
+rmdir exercise.txt /tmp/
+
+<!------------
+*TASK 3
+------------->
+
+touch umuzi.txt recruits.txt cohort.txt
+(content was filled directley to the files)
+cat umuzi.txt recruits.txt cohort.txt
+cat umuzi.txt recruits.txt cohort.txt > summary.txt
+cat >> summary.txt
+This is the append file and this text will be written below the original content of the summary text file.
+
+<!------------
+*TASK 4
+------------->
+
+locate umuzi
+locate umuzi > search_result.txt
+
+<!------------
+*TASK 5
+------------->
+
+mkdir myDoccument
+cd myDoccument
+touch pad.txt
+cd Desktop
+mkdir work
+cp myDoccument/pad.txt Desktop/pad_copy.txt
+updatedb
+cd -
+locate pad_copy.txt
+
+<!------------
+*TASK 6
+------------->
+
+find ~/ -type f -name "*.pdf"
+find ~/ -type f -name "*.pdf" -exec {} cp ~/Desktop/max \;
+find ~/ -daystart -type f -mtime 0
+
+<!------------
+*TASK 7
+------------->
+
+nano my_bio.txt
+mkdir ~/Desktop/my_files
+mv my_bio.txt ~/Desktop/my_files
